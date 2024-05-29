@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <!-- Mengimpor SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+
+<body>
+  <script>
+    // Mengganti alert dengan SweetAlert2
+    Swal.fire({
+      title: 'Hai pembaca',
+      text: 'Kamu tau ga hari ini hari apa?',
+      icon: 'info',
+      confirmButtonText: 'Yaap bener bgt dapet nilai 100'
+    }).then(() => {
+      Swal.fire({
+        title: 'Happy birthday yaa sayangg',
+        text: 'Semoga panjang umur, sehat selalu, dan semoga semua yang kamu inginkan tercapai yaa',
+        icon: 'success',
+        confirmButtonText: 'Semoga bisa bermanfaat bagi orang banyak'
+      }).then(() => {
+        Swal.fire({
+          title: 'Smoga makin sayang juga sama aku',
+          text: 'Aku mau ngucapin trimakasii banyak uda kuat sampe sekarang, kamu hebat i soo proud of you albertt',
+          icon: 'success',
+          confirmButtonText: 'Terimakasih juga yaa selalu meluangkan waktu buat aku, di tengah kesibukan kamu'
+        }).then(() => {
+          Swal.fire({
+            title: 'Kalo kamu lagi sedih, inget ya ada aku di sini aku selalu jadi tempat kamu pulang (alay dikit tp beneran)',
+            text: 'Semoga tujuan kamu, aku, kita bisa tercapai yaa, aminn',
+            icon: 'success',
+            confirmButtonText: 'Sekali lagi happy birthday sayangg'
+          }).then(() => {
+            Swal.fire({
+              title: 'I love you to the moon and back',
+              icon: 'success',
+              confirmButtonText: 'Terimakasih, aku juga sayang kamu'
+            });
+          });
+        });
+      });
+    });
+  </script>
+</body>
+
+  </html>
